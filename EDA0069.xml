@@ -3,14 +3,18 @@
     <next>
       <block type="movement_forward" id="64">
         <next>
-          <block type="robot_delay" id="91" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="98">
-                <field name="NUM">60000</field>
-              </block>
-            </value>
+          <block type="oled_drawtext" id="193">
+            <field name="TEXT">I've reached </field>
             <next>
-              <block type="movement_stop" id="160"></block>
+              <block type="movement_reverse" id="209">
+                <next>
+                  <block type="movement_left" id="219">
+                    <next>
+                      <block type="movement_stop" id="229"></block>
+                    </next>
+                  </block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
