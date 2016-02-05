@@ -6,16 +6,11 @@
           <block type="robot_delay" id="91" inline="true">
             <value name="DELAY">
               <block type="math_number" id="98">
-                <field name="NUM">5000</field>
+                <field name="NUM">60000</field>
               </block>
             </value>
             <next>
-              <block type="oled_drawtext" id="141">
-                <field name="TEXT">reached!</field>
-                <next>
-                  <block type="movement_stop" id="117"></block>
-                </next>
-              </block>
+              <block type="movement_stop" id="160"></block>
             </next>
           </block>
         </next>
