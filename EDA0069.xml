@@ -1,15 +1,22 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="277" x="44" y="-1">
+  <block type="movement_forward" id="287" x="77" y="80">
     <next>
-      <block type="movement_forward" id="239">
+      <block type="robot_delay" id="289" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="296">
+            <field name="NUM">5000</field>
+          </block>
+        </value>
         <next>
-          <block type="movement_left" id="249">
+          <block type="robot_delay" id="297" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="298">
+                <field name="NUM">3000</field>
+              </block>
+            </value>
             <next>
-              <block type="oled_drawtext" id="268">
-                <field name="TEXT">Hi Emaan</field>
-                <next>
-                  <block type="movement_stop" id="259"></block>
-                </next>
+              <block type="oled_drawtext" id="307">
+                <field name="TEXT">Hello</field>
               </block>
             </next>
           </block>
