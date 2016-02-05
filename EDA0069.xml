@@ -1,13 +1,1 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="150" x="60" y="37">
-    <next>
-      <block type="movement_forward" id="64">
-        <next>
-          <block type="oled_drawtext" id="193">
-            <field name="TEXT">I've reached </field>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
-</xml>
+<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
