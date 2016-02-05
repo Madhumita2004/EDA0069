@@ -5,11 +5,10 @@
         <next>
           <block type="movement_left" id="249">
             <next>
-              <block type="movement_stop" id="259">
+              <block type="oled_drawtext" id="268">
+                <field name="TEXT">Hi Emaan</field>
                 <next>
-                  <block type="oled_drawtext" id="268">
-                    <field name="TEXT">Hi Emaan</field>
-                  </block>
+                  <block type="movement_stop" id="259"></block>
                 </next>
               </block>
             </next>
