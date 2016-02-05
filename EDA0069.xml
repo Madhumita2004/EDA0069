@@ -5,17 +5,6 @@
         <next>
           <block type="oled_drawtext" id="193">
             <field name="TEXT">I've reached </field>
-            <next>
-              <block type="movement_reverse" id="209">
-                <next>
-                  <block type="movement_left" id="219">
-                    <next>
-                      <block type="movement_stop" id="229"></block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
           </block>
         </next>
       </block>
